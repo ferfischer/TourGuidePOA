@@ -1,0 +1,38 @@
+<resources>
+
+        <!-- Tema base da aplicação. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">@color/primary_color</item>
+            <item name="colorPrimaryDark">@color/primary_dark_color</item>
+            <item name="actionBarStyle">@style/TourGuideAppBarStyle</item>
+            <item name="android:windowContentOverlay">@null</item>
+        </style>
+
+        <!-- Estilo da barra do aplicativo -->
+        <style name="TourGuideAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+            <!-- Remove a sombra abaixo da barra do aplicativo -->
+            <item name="elevation">0dp</item>
+        </style>
+
+        <!-- Estilo para uma aba que mostra uma categoria de nome -->
+        <style name="CategoryTab" parent="Widget.Design.TabLayout">
+            <item name="tabIndicatorColor">#CDDC39</item>
+            <item name="tabSelectedTextColor">@android:color/white</item>
+            <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        </style>
+
+        <!-- Aparência do estilo do texto para uma categoria de aba -->
+        <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+            <item name="android:textColor">#A8A19E</item>
+        </style>
+
+        <!-- Style for a word/translation line -->
+        <style name="ListItemStyle">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:background">@color/tan_background</item>
+            <item name="android:minHeight">@dimen/list_item_height</item>
+        </style>
+
+</resources>

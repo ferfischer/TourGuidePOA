@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TourGuidePOA</string>
+    <string name="category_see">See</string>
+    <string name="category_do">Do</string>
+    <string name="category_eat">Eat</string>
+    <string name="category_sleep">Sleep</string>
+</resources>
