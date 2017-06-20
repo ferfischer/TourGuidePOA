@@ -25,7 +25,6 @@ public class SleepFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-
         final View rootView = inflater.inflate(R.layout.venue_list, container, false);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
@@ -38,8 +37,6 @@ public class SleepFragment extends Fragment {
         VenueAdapter adapter = new VenueAdapter(getContext(), venueList);
 
         listView.setAdapter(adapter);
-
-
 
         return rootView;
 

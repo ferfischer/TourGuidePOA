@@ -30,41 +30,22 @@ public class Venue {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
     public String getDescription() {
         return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public int getImageResourceId() {
         return imageResourceId;
     }
 
-    public void setImageResourceId(int imageResourceId) {
-        this.imageResourceId = imageResourceId;
-    }
-
     public String getTelephone() {
         return telephone;
-    }
-
-    public void setTelephone(String telephone) {
-        this.telephone = telephone;
     }
 
     public String getMapsURI() {
         return mapsURI;
     }
 
-    public void setMapsURI(String mapsURI) {
-        this.mapsURI = mapsURI;
-    }
     public boolean hasImage(){
         return (imageResourceId != NO_IMAGE_PROVIDED);
     }
